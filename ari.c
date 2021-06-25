@@ -36,7 +36,6 @@ int count_sentences(string s) {
   
 string ari(string s) {
   string grades[] = {"Kindergarten","First/Second Grade","Third Grade","Fourth Grade","Fifth Grade","Sixth Grade","Seventh Grade","Eighth Grade","Ninth Grade","Tenth Grade","Eleventh Grade","Twelfth grade","College student","Professor"};
-  int l = strlen(s);
   int characters = count_characters(s);
   int words = count_words(s);
   int sentences = count_sentences(s);
